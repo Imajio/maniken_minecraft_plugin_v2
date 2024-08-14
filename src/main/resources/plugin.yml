@@ -1,0 +1,13 @@
+name: Maniken
+version: '2.0'
+main: org.mooni.maniken.Maniken
+api-version: '1.20'
+commands:
+  changehead:
+    description: Изменяет скин головы манекена
+    usage: /changehead <ник>
+    permission: maniken.changehead
+permissions:
+  maniken.changehead:
+    description: Позволяет изменять скин головы манекена
+    default: true
